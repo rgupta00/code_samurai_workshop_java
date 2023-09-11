@@ -9,4 +9,11 @@ lab : https://docs.google.com/spreadsheets/d/1HURA4NhvtexjRdBgO7V_zkitWuAKP26W/e
 youtube: https://www.youtube.com/@busycoderacademy
 
 
+https://www3.ntu.edu.sg/home/ehchua/programming/index.html
+core java head first
+thinking in java
+design pattern head first
+effective java
+clean code
+
 
