@@ -4,15 +4,13 @@ public class Tester {
 
 	public static void main(String[] args) {
 		
-//		private String invoiceId;
-//		private String vendorName;
-//		private double ratePerHr;
-//		private double numbersOfHr;
+
 
 		
-		Employee employee=new FullTimeEmployee(2, "raj", 700000);
+		Employee employee=new PartTimeEmployee(1, "amit", 3000, 23, 5600);
+		//System.out.println(employee);
 		
-		
+		EmployeePaymentProceseingSystem.paymentProcessingSystem(employee);
 	}
 
 }

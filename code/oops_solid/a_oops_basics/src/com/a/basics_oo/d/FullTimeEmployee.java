@@ -1,6 +1,6 @@
 package com.a.basics_oo.d;
 
-public class FullTimeEmployee extends Employee{
+public class FullTimeEmployee extends Employee implements Payable{
 
 	private double tax;
 	public FullTimeEmployee(int id, String name, double salary) {
@@ -14,6 +14,11 @@ public class FullTimeEmployee extends Employee{
 		StringBuilder builder = new StringBuilder();
 		builder.append("FullTimeEmployee [tax=").append(tax).append("]");
 		return builder.toString();
+	}
+
+	@Override
+	public double payment() {
+		return 4500000;
 	}
 	
 	

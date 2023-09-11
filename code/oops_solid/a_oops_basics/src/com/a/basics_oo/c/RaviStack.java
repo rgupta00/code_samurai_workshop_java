@@ -1,6 +1,6 @@
 package com.a.basics_oo.c;
 
-public class RaviStack{
+public class RaviStack implements Stack{
 	private int arr[];
 	private int SIZE;
 	private int top;
@@ -10,14 +10,14 @@ public class RaviStack{
 		top=-1;
 	}
 	
-	public void pushData(int data) {
+	public void push(int data)  {
 		if(top==SIZE-1)
 			System.out.println("cant insert");
 		else
 			arr[++top]=data;
 	}
 	
-	public int popData() {
+	public int pop() {
 		if(top==-1) {
 			System.out.println("stack is empty");
 			return -999;

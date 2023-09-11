@@ -1,0 +1,25 @@
+package com.a.basics_oo.c;
+
+public class DemoMain {
+
+	public static void main(String[] args) {
+		
+		RaviStack stack=new RaviStack();
+		
+		someInternalLogic(stack);
+	}
+
+	private static void someInternalLogic(RaviStack stack) {
+	
+		stack.pushData(0);
+		stack.amitPush(3);
+		stack.amitPush(-33);
+		
+		System.out.println(stack.amitPop());
+		System.out.println(stack.amitPop());
+		System.out.println(stack.amitPop());
+	}
+	
+	
+
+}

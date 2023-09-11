@@ -1,6 +1,7 @@
 package com.a.basics_oo.d;
 
-abstract  class Employee{
+abstract class Employee implements Payable{
+	
 	private int id;
 	private String name;
 	private double salary;

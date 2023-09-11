@@ -1,0 +1,8 @@
+package com.a.basics_oo.d;
+
+public class Invoice {
+		private String invoiceId;
+		private String vendorName;
+		private double ratePerHr;
+		private double numbersOfHr;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RelationShipBwTheObjects.java&apos; to &apos;a_oops_basics/src/com.a.basics_oo.a.sol&apos;&#x0A;- Original project: &apos;a_oops_basics&apos;&#x0A;- Destination element: &apos;a_oops_basics/src/com.a.basics_oo.a.sol&apos;&#x0A;- Original element: &apos;com.a.basics_oo.a.RelationShipBwTheObjects.java&apos;" description="Copy compilation unit" destination="/src&lt;com.a.basics_oo.a.sol" element1="/src&lt;com.a.basics_oo.a{RelationShipBwTheObjects.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1694407954034" units="1" version="1.0"/>
+</session>

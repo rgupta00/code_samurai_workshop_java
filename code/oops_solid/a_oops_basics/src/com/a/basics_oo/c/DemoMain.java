@@ -4,22 +4,22 @@ public class DemoMain {
 
 	public static void main(String[] args) {
 		
-		AmitStack stack=new AmitStack();
+		Stack stack=new AmitStack();
 		
 		someInternalLogic(stack);
 	}
-	
-	public static void someInternalLogic(AmitStack stack) {
-		
-		stack.amitPush(44);
-		stack.amitPush(404);
-	
-		
-		System.out.println(stack.raviPop());
-		System.out.println(stack.raviPop());
 
+	private static void someInternalLogic(Stack stack) {
+	
+		stack.push(0);
+		stack.push(3);
+		stack.push(-33);
 		
-		
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
 	}
+	
+	
 
 }

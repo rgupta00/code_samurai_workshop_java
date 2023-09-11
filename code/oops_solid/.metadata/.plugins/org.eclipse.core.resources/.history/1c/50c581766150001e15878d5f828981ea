@@ -1,0 +1,14 @@
+package com.a.basics_oo.f;
+
+class Kid{
+	public void goToSchool() {
+		System.out.println("going to school :(");
+	}
+}
+public class DemoAbCalssvsInterface {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

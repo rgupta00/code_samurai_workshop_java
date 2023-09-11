@@ -2,9 +2,21 @@ package com.a.basics_oo.b;
 
 //encapsulation = data hiding + business contstrants 
 public class Account {
-	  int id;
-	  String name;
-	 double balance;
+	private int id;
+	private String name;
+	private double balance;
+
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
 
 	public Account(int id, String name, double balance) {
 		this.id = id;
@@ -13,10 +25,10 @@ public class Account {
 	}
 
 	public void deposit(double amount) {
-		balance=balance+amount;
+		balance = balance + amount;
 	}
-	
+
 	public double intrestCal() {
-		return balance*02;
+		return balance * 02;
 	}
 }

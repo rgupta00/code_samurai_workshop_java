@@ -1,0 +1,5 @@
+package com.a.basics_oo.c;
+
+public interface Stack {
+
+}

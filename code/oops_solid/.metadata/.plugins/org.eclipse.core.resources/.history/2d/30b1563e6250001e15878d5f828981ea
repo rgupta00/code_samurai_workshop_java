@@ -1,0 +1,35 @@
+package com.a.basics_oo.f;
+//kid jump like a monkey
+//kid is monkey
+ class Monkey{
+	public void stayOnTree() {
+		System.out.println("i stay on stayOnTree");
+	}
+	
+	public void jump() {
+		System.out.println("i am expert of jumping");
+	}
+}
+class Kid extends Monkey{
+	
+	public void jump() {
+		System.out.println("i am super expert of jumping");
+	}
+	public void doHomeWork() {
+		System.out.println("doing HomeWork :(");
+	}
+	
+	public void goToSchool() {
+		System.out.println("going to school :(");
+	}
+}
+public class DemoAbCalssvsInterface {
+	
+	public static void main(String[] args) {
+		Kid kid=new Kid();
+		kid.jump();
+		kid.doHomeWork();
+		kid.stayOnTree();
+	}
+
+}

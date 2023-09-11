@@ -1,0 +1,29 @@
+package com.a.basics_oo.a;
+//A passanger is moving from LN to Noida "using" metro
+//loose coupling and high cohesion
+class Metro{
+	public void move(String source, String destination) {
+		System.out.println("moving from "+ source + " to "+ destination+" using metro");
+	}
+}
+class Passanger{
+	private String name;
+	
+	public Passanger(String name) {
+		this.name = name;
+	}
+	public void travel(String source, String destination,Metro metro ) {
+		System.out.println("name : "+ name);
+		metro.move(source, destination);
+	}
+}
+public class RelationShipBwTheObjects {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+
+
