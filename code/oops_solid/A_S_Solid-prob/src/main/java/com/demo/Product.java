@@ -18,7 +18,9 @@ class Product {
 	private String name;
 	private double price;
 
+	
 	public boolean valiation() {
+		//logic of valiation in this class
 		return true;
 	}
 
