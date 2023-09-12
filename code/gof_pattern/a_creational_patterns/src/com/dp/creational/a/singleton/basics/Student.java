@@ -9,7 +9,7 @@ interface Study{
 //u can create ur own annotation and process them using java reflection
 //Hibernate
 
-public class Student implements Study {
+public class Student implements Study, Cloneable {
 	private int id;
 	private String name;
 	public int getId() {
@@ -46,4 +46,11 @@ public class Student implements Study {
 	public void study() {
 		System.out.println("student is stdying");
 	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		//shallow copy vs deep copy
+		return super.clone();
+	}
+	
+	
 }

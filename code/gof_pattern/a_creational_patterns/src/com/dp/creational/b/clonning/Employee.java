@@ -50,10 +50,10 @@ class Employee  implements Cloneable{
 
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-//		Employee clonnedObject= (Employee) super.clone();
-//		clonnedObject.hireDay=(Date) hireDay.clone();
-//		return clonnedObject;
-		return null;
+	Employee clonnedObject= (Employee) super.clone();
+		clonnedObject.hireDay=(Date) hireDay.clone();
+	return clonnedObject;
+		//return super.clone();//shallow copy
 	}
 	
 	

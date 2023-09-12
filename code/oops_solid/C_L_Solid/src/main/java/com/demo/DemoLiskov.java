@@ -30,19 +30,37 @@ class Rectangle {
 	}
 
 }
+//Why not to inherit rectangle in order to resue the logic
 
-class Square extends Rectangle {
+//class Square extends Rectangle {
+//
+//	public Square(int l) {
+//		super(l, l);
+//	}
+//
+//	@Override
+//	public int calculateArea() {
+//		return super.calculateArea();
+//	}
+//
+//}
+
+class Square {
+	private Rectangle rectangle;
+	
+	
 	public Square(int l) {
-		super(l, l);
-	}
-	public int calculateArea() {
-		return super.calculateArea();
-	}
-	public void setDimension(int changeDimension) {
-		super.setB(changeDimension);
-		setB(changeDimension);
+		rectangle=new Rectangle(l, l);
 	}
 
+	public int calculateArea() {
+		return rectangle.calculateArea();
+	}
+
+	public void changeDimension(int changeLength) {
+		rectangle.setB(changeLength);
+		rectangle.setL(changeLength);
+	}
 }
 
 public class DemoLiskov {
@@ -53,12 +71,12 @@ public class DemoLiskov {
 		 * favour composition over inheritance square rectangle liskov java
 		 * 
 		 */
-		Square square=new Square(3);
-		int area=square.calculateArea();
+		Square square = new Square(3);
+		int area = square.calculateArea();
 		System.out.println(area);
-		square.setB(10);
-		square.setL(3);
 		
+		square.changeDimension(10);
+		area = square.calculateArea();
 		System.out.println(area);
 	}
 }
