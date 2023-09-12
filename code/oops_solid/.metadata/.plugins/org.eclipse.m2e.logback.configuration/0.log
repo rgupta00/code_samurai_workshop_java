@@ -507,3 +507,133 @@
 2023-09-11 13:31:11,627 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
 2023-09-11 13:31:11,628 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-09-11 13:31:11,628 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:50:25,581 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-12 08:51:20,397 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.demo:A_S_Solid:0.0.1-SNAPSHOT @ /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/E_D_Solid/pom.xml.
+2023-09-12 08:51:20,509 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /E_D_Solid/src/main/java
+2023-09-12 08:51:20,509 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /E_D_Solid/src/main/resources
+2023-09-12 08:51:20,509 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /E_D_Solid/src/test/java
+2023-09-12 08:51:20,522 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2023-09-12 08:51:20,905 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:20,907 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:51:20,911 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:20,912 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/A_S_Solid-prob/src/test/resources
+2023-09-12 08:51:21,004 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,005 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:51:21,007 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,007 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/A_S_Solid-sol/src/test/resources
+2023-09-12 08:51:21,100 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,100 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/B_O_Solid/src/main/resources
+2023-09-12 08:51:21,102 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,103 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/B_O_Solid/src/test/resources
+2023-09-12 08:51:21,178 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,179 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/C_L_Solid/src/main/resources
+2023-09-12 08:51:21,180 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,180 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/C_L_Solid/src/test/resources
+2023-09-12 08:51:21,245 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,245 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:51:21,246 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,247 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:51:21,300 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,301 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:51:21,302 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:51:21,303 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/E_D_Solid/src/test/resources
+2023-09-12 08:53:21,506 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:21,507 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:53:21,508 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:21,508 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:53:31,318 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:31,318 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:53:31,319 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:31,320 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:53:35,436 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:35,436 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:53:35,437 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:35,437 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:53:49,083 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:49,083 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:53:49,083 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:53:49,083 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:54:20,945 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:20,945 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:54:20,946 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:20,946 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:54:32,596 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:32,597 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:54:32,597 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:32,597 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:54:46,367 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:46,367 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:54:46,368 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:46,369 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:54:54,982 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:54,983 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:54:54,983 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:54:54,983 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:55:13,801 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:13,801 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:55:13,802 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:13,802 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:55:32,053 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:32,054 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:55:32,056 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:32,057 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:55:38,518 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:38,518 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:55:38,519 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:38,519 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:55:45,225 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:45,226 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:55:45,226 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:45,227 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:55:54,452 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:54,453 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:55:54,453 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:55:54,454 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:56:17,315 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:56:17,315 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:56:17,316 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:56:17,316 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:56:33,999 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:56:34,000 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:56:34,000 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:56:34,000 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:56:48,358 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:56:48,358 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:56:48,359 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:56:48,359 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:57:07,643 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:07,643 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:57:07,644 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:07,644 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:57:19,379 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:19,380 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:57:19,381 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:19,381 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:57:23,463 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:23,464 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:57:23,465 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:23,465 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:57:30,859 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:30,860 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:57:30,861 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:30,861 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:57:35,448 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:35,449 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/main/resources
+2023-09-12 08:57:35,449 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:57:35,450 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/D_I_Solid/src/test/resources
+2023-09-12 08:58:04,565 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:04,567 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:58:04,567 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:04,568 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/E_D_Solid/src/test/resources
+2023-09-12 08:58:16,236 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:16,237 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:58:16,238 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:16,238 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/E_D_Solid/src/test/resources
+2023-09-12 08:58:37,233 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:37,234 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:58:37,234 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:37,234 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/E_D_Solid/src/test/resources
+2023-09-12 08:58:47,627 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:47,627 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-09-12 08:58:47,628 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-09-12 08:58:47,628 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/raj/Documents/code_samurai_workshop_java/code/oops_solid/E_D_Solid/src/test/resources
