@@ -12,3 +12,7 @@ Chain of Responsibility
 	=> ex:  try-catch block
 
 	=> Ex: ATM Dispense machine, 50$, 20$, 10$ etc
+
+	480
+	
+	
