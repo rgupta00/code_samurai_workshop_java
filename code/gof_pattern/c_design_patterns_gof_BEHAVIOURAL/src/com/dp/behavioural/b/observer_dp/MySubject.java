@@ -3,7 +3,7 @@ package com.dp.behavioural.b.observer_dp;
 import java.util.Observable;
 
 //observable (news paper wala)
-public class MySubject {
+public class MySubject extends Observable{
 	private String name;
 	private float price;
 
@@ -26,9 +26,8 @@ public class MySubject {
 
 	public void setPrice(float price) {
 		this.price = price;
-//		setChanged();
-//		notifyObservers(new Float(price));
+		setChanged();
+		notifyObservers(new Float(price));
 	}
-
 
 }

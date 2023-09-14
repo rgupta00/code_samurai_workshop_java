@@ -1,4 +1,5 @@
 package com.dp.behavioural.d.template_dp;
+
 public abstract class HouseTemplate {
 
 	//template method, final so subclasses can't override
@@ -17,6 +18,7 @@ public abstract class HouseTemplate {
 
 	//methods to be implemented by subclasses
 	public abstract void buildWalls();
+	
 	public abstract void buildPillars();
 
 	private void buildFoundation() {
