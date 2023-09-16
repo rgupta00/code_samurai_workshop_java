@@ -15,9 +15,7 @@ public class F_Consumer {
 //    	Consumer<String>c1=name-> System.out.println(name);
 //    	c1.accept("amit");
     	
-    	
-    	
-       
+    
         Map<Integer, String>s=new HashMap<>();
         s.put(1,"raj");
         s.put(4,"sumit");

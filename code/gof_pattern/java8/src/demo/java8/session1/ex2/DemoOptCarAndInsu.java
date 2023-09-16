@@ -1,7 +1,7 @@
 package demo.java8.session1.ex2;
 
 import java.util.Optional;
-
+//Person-> may have a car --> car may have a insurence
 class Insurance{
     private String insuranceCompanay;
 
@@ -62,21 +62,30 @@ public class DemoOptCarAndInsu {
     }
 
     private static String printComapnyName(Optional<Person> optPerson) {
-
-//        Optional<Optional<Car>> oPerson=optPerson.map(Person::getCarOpt);
-
-        String oPersonString=optPerson
-                .flatMap(Person::getCarOpt)
-                .flatMap(Car::getOptInsurance)
-                .map(Insurance::getInsuranceCompanay)
-                .orElseThrow(()-> new RuntimeException());
-
-
-
-       return  optPerson.flatMap(Person::getCarOpt)
-                .flatMap(Car::getOptInsurance)
-                .map(Insurance::getInsuranceCompanay)
-                .orElse("not found");
-
+    	//flatmap -> used to flatten the streams
+    	
+//         Optional<Optional<Car>> map = optPerson.map(p-> p.getCarOpt());
+    	
+//    	   Optional<Car> map = optPerson.flatMap(p-> p.getCarOpt());
+//    	   Optional<Insurance> map2 = optPerson.flatMap(p-> p.getCarOpt()).flatMap(c-> c.getOptInsurance());
+    	   
+         return optPerson.flatMap(p->p.getCarOpt()).flatMap(c->c.getOptInsurance()).map(i->i.getInsuranceCompanay())
+        		 .orElse("no insurence");
+    	
     }
 }
+
+
+
+//String oPersonString=optPerson
+//      .flatMap(Person::getCarOpt)
+//      .flatMap(Car::getOptInsurance)
+//      .map(Insurance::getInsuranceCompanay)
+//      .orElseThrow(()-> new RuntimeException());
+//
+//
+//
+//return  optPerson.flatMap(Person::getCarOpt)
+//      .flatMap(Car::getOptInsurance)
+//      .map(Insurance::getInsuranceCompanay)
+//      .orElse("not found");

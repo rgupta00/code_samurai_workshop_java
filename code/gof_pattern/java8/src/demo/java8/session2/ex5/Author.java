@@ -1,13 +1,22 @@
 package demo.java8.session2.ex5;
 
+import java.util.ArrayList;
 import java.util.List;
 
 class Author {
 	private String name;
 	private String lastname;
 	private String country;
-	//private List<String> countryVisitors;
+	private List<String> countryVisitors=new ArrayList<>();
 
+	
+	
+	public List<String> getCountryVisitors() {
+		return countryVisitors;
+	}
+	public void setCountryVisitors(List<String> countryVisitors) {
+		this.countryVisitors = countryVisitors;
+	}
 	public String getName() {
 		return name;
 	}

@@ -1,6 +1,8 @@
 package demo.java8.session1.ex2;
 import static  java.util.Comparator.*;
 import java.util.*;
+import java.util.Map.Entry;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
@@ -136,8 +138,12 @@ public class DemoMap {
         map.put(6,"ekta");
         map.put(18,"sumit");
         map.put(11,"kapil");
+       
+       // map.forEach(( id,  name) ->	System.out.println(id +": "+ name));
+        //map.entrySet().forEach(e ->System.out.println(e.getKey()+" :  "+ e.getValue()));
+       
 
-      //  Set<Map.Entry<Integer, String>> entrySet=   map.entrySet();
+//        Set<Map.Entry<Integer, String>> entrySet=   map.entrySet();
 //        for (Map.Entry<Integer, String> entry: entrySet) {
 //            System.out.println(entry.getKey()+": "+ entry.getValue());
 //        }
@@ -158,10 +164,10 @@ public class DemoMap {
         //1
       //  map.forEach((k,v)-> System.out.println(k+": "+ v));
 
-        map.entrySet()
-                .stream()
-                .sorted(Map.Entry.comparingByValue())//comparingByValue vs comparingByKey
-                .forEach( e-> System.out.println(e.getKey()+": "+ e.getValue()));
+//        map.entrySet()
+//                .stream()
+//                .sorted(Map.Entry.comparingByValue())//comparingByValue vs comparingByKey
+//                .forEach( e-> System.out.println(e.getKey()+": "+ e.getValue()));
 
 //        Map<Emp, Double> map2=new HashMap<>();
 //        map2.put(new Emp(1,"raj",10000),10000.00);

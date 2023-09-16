@@ -1,8 +1,7 @@
 package demo.java8.session2.ex7;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.function.LongBinaryOperator;
+import java.util.function.Consumer;
 import java.util.function.LongConsumer;
 import java.util.stream.LongStream;
 
@@ -12,15 +11,37 @@ public class DemoPerllelStream {
 
         long start=System.currentTimeMillis();
 
-        long counter[]=new long[1];
-        LongStream.rangeClosed(1, 1_000_000)
-        		.parallel()
-        		.forEach( x-> counter[0]+=x);
-
+//        long counter[]=new long[] {0L};
+//        
+//        LongStream
+//        .rangeClosed(1, 1_000_000)
+//        .parallel()
+//        .forEach( x ->{
+//        	synchronized (counter) {
+//        		counter[0]+=x;
+//			}
+//        });
+        
+        
+     AtomicLong counter=new AtomicLong(0);
+        
+        LongStream
+        .rangeClosed(1, 1_000_000)
+        .parallel()
+        .forEach( x ->{
+        	counter.addAndGet(x);
+        });
+        
+        //AtomicLong
+        //Coucurrency: syn(passimistic lock)		optimistic lock (CAS)	AtomicInteger/AtomicLong
+        
+//        long counter=LongStream.rangeClosed(1, 1_000_00000)
+//        		.sequential()
+//        		.reduce(0, (x,y)-> x+y);
 
         long end=System.currentTimeMillis();
 
-        System.out.println(counter[0]);
+        System.out.println(counter);
         System.out.println("time taken : "+(end - start)+" ms");
 
     }
